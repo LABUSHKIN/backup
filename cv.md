@@ -12,8 +12,8 @@
 * CorelDRAW Graphics
 ## Education
 ***
-### [Minsk Radioengineering College](https://www.mrk-bsuir.by/en)
-### [Belarusian State University of Informatics and Radioelectronics](https://www.bsuir.by/en/) (Microelectronics)
+### [- Minsk Radioengineering College](https://www.mrk-bsuir.by/en)
+### [- Belarusian State University of Informatics and Radioelectronics](https://www.bsuir.by/en/) (Microelectronics)
 ## About me:
 ***
 ## Code example:
