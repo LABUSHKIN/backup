@@ -1,2 +1,1 @@
-# // main
-# ..for RS School )))
+https://github.com/LABUSHKIN/rsschool-cv.git
