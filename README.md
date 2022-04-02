@@ -1,1 +1,1 @@
-# rsschool-2022q1
+https://github.com/LABUSHKIN/rsschool-cv.git
