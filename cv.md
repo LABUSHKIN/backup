@@ -9,6 +9,7 @@
 ## Skills:
 ***
 * 
+* Hardware testing and adjustment
 * CorelDRAW Graphics
 ## Education
 ***
