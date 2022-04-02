@@ -18,7 +18,7 @@
 ### [- Belarusian State University of Informatics and Radioelectronics](https://www.bsuir.by/en/) (Microelectronics)
 ## About me:
 I am a hardware engineer. I was all the time connected with electronics and radio engineering. I want to learn software.
-*** 
+
 ## Code example:
 ***
 #### function multiply (number) {
