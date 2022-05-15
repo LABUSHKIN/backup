@@ -4,3 +4,22 @@ h1 {
     font-family: Arial, Times, serif;
     text-align: center;
   }  
+
+  $brandColor: lightblue;
+  body {
+    font-family: Arial;
+    background: $brandColor;
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    color: red;
+    margin: 0;
+    display: grid;
+    place-items: center;
+  }
+  
+  .grid1 {
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr);
+    grid-template-columns: 2rem 20% 150px 1fr;
+  } 
