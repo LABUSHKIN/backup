@@ -1,1 +1,1 @@
-https://LABUSHKIN.github.io/rsschool-cv/cv
+https://github.com/LABUSHKIN/backup/blob/main/cv
