@@ -1,1 +1,1 @@
-https://github.com/LABUSHKIN/backup/blob/main/cv
+https://LABUSHKIN.github.io/backup/cv
