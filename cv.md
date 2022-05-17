@@ -19,10 +19,11 @@
 ## About me:
 ***
 I am a hardware engineer. I was all the time connected with electronics and radio engineering. I want to learn software.
-## Code example:
+## Code example (CodeWars):
 ***
-#### function multiply (number) {
-####  return number * Math.pow (5, Math.abs(number).toString().length);
-#### }
-#### console.log(multiply(10)); 
-#### console.log(multiply(-3));
+###  function highAndLow(numbers) {
+###    let arr = numbers.split(' ');
+###    let num = Math.max(...arr) + ' ' + Math.min(...arr);
+###  console.log (numbers, num);
+###  return num;
+###  }
