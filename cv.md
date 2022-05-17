@@ -19,7 +19,7 @@
 ## About me:
 ***
 I am a hardware engineer. I was all the time connected with electronics and radio engineering. I want to learn software.
-## Code example (CodeWars):
+## Code example:
 ***
 ###  function highAndLow(numbers) {
 ###    let arr = numbers.split(' ');
