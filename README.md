@@ -1,1 +1,1 @@
-https://LABUSHKIN.github.io/backup/cv
+https://LABUSHKIN.github.io/backup/cv.md
