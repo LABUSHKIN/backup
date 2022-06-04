@@ -1,0 +1,155 @@
+html, body {
+    font-family: 'Arvo', sans-serif;
+    background-color: white;
+    max-width: 80%;
+    height: auto;
+    margin:  auto;
+}
+* {
+    box-sizing: border-box;
+}
+b {
+    font-size: 18px;
+    color: grey;
+}
+header {
+    background-color: white;
+    border: solid grey;
+    color: grey;
+    text-align: center;
+    padding: 0.1em; 
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 0 -5px;
+}
+.nav-links {
+    display: flex;
+    margin: 0 5px; 
+}
+.btn {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid grey;
+	border-radius: 50px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+.btn:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+.btn:hover {
+	transition: all 0.2s;
+	background-color: #a0a0a0;
+    color: #444;
+}
+.btn:active {
+	background-color: #808080;
+    color: white;
+}
+.btn:disabled {
+	background-color: #eee;
+	border-color: #eee;
+	color: #444;
+	cursor: not-allowed;
+}
+ .row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+  .left-column {
+    flex: 33%;
+    background-color: white;
+    border: solid grey;
+    padding: 20px;
+    margin: 5px 3px 0 auto;
+    color: grey; 
+}
+  .right-column {
+    flex: 66%;
+    background-color: white;
+    border: solid grey;
+    padding: 20px;
+    margin: 5px 0 0 auto;
+    color: grey; 
+} 
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+}
+  .profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+  .info-panel, .exper-panel, .edu-panel {
+    font-size: 17px;
+}
+.skills-bar, .language-bar {
+  width: 100%;
+  background-color: #e6e6ff;
+  border-radius: 1em; 
+}
+.skills, .language {
+  font-size: 12px;
+  text-align: center;  
+  color: white;
+}
+
+.html {width: 60%; background-color: red; border-radius: 1em;}
+.css {width: 50%; background-color: red; border-radius: 1em;}
+.js {width: 25%; background-color: #0000cc; border-radius: 1em;}
+.php {width: 20%; background-color: #0000cc; border-radius: 1em;}
+.english {width: 60%; background-color: red; border-radius: 1em;}
+.russian {width: 100%; background-color: red; border-radius: 1em;}
+.belarussian {width: 100%; background-color: red; border-radius: 1em;}
+
+a:link { 
+    color: grey;
+    text-decoration: none;
+}                               /* Непосещённые ссылки */
+  a:visited { 
+    color: rgb(97, 84, 101);
+    text-decoration: none;
+}                               /* Посещённые ссылки */
+  a:hover {
+    background-color: #a0a0a0;
+    color: black;
+    text-decoration: none;
+}                               /* Ссылки при наведении */
+  a:active {
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+} 
+.scr {
+    scroll-behavior: smooth;
+}
+footer {
+    background-color: white;
+    color: grey;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}

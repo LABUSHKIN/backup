@@ -1,6 +1,72 @@
+html, body {
+  font-family: "Roboto", "Mono", Arial;
+  background-color: rgb(220, 220, 220);
+  max-width: 80%;
+  height: auto;
+  margin:  auto;
+  text-align: center;
+  }
 h1 {
-    color: #010652;
-    font-size: 250%;
-    font-family: Arial, Times, serif;
-    text-align: center;
-  }  
+  color:  rgb(0, 10, 50);
+  font-size: 250%;
+  text-align: right;
+} 
+h2 {
+
+}
+h5 {
+  color:  rgb(0, 10, 50);
+  font-size: 100%;
+  text-align: right;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin: 0 -5px;
+}
+.navi {
+  display: flex;
+  margin: 0 5px; 
+}
+.btn {
+display: inline-block;	
+box-sizing: border-box;
+padding: 0 25px;
+margin: 0 15px 15px 0;
+outline: none;
+border: 1px solid grey;
+border-radius: 50px;
+height: 46px;
+line-height: 46px;
+font-size: 14px;
+font-weight: 600;
+text-decoration: none;
+color: #444;
+background-color: #fff;
+box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+cursor: pointer;
+user-select: none;
+appearance: none;
+touch-action: manipulation;  
+vertical-align: top;
+transition: box-shadow 0.2s;
+}
+.btn:focus-visible {
+border: 1px solid #4c51f9;
+outline: none;
+}
+.btn:hover {
+transition: all 0.2s;
+background-color: #a0a0a0;
+  color: #444;
+}
+.btn:active {
+background-color: #808080;
+  color: white;
+}
+.btn:disabled {
+background-color: #eee;
+border-color: #eee;
+color: #444;
+cursor: not-allowed;
+}
