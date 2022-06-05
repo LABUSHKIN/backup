@@ -1,0 +1,93 @@
+html, body {
+  font-family: "Roboto", "Mono", Arial;
+  background-color: rgb(220, 220, 220);
+  max-width: 80%;
+  height: auto;
+  margin:  auto;
+  text-align: center;
+}
+* {
+  box-sizing: border-box; width: auto;
+}
+h1 {
+  color:  rgb(0, 20, 100);
+  font-size: 250%;
+  text-align: right;
+} 
+h2 {
+  text-align: left;
+}
+h4 {
+  color:  rgb(0, 20, 100);
+  text-align: right;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+.navi {
+  display: flex;
+  margin: 10px 10px; 
+}
+.nav {
+display: inline-block;	
+box-sizing: border-box;
+padding: 0 30px;
+margin: 5px 15px 15px 5px;
+outline: none;
+border: 1px solid grey;
+border-radius: 50px;
+height: 45px;
+line-height: 45px;
+font-size: 16px;
+font-weight: 600;
+text-decoration: none;
+color: gray;
+background-color: #fff;
+box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
+cursor: pointer;
+user-select: none;
+appearance: none;
+touch-action: manipulation;  
+vertical-align: top;
+transition: box-shadow 0.2s;
+}
+.blocks {  
+  display: flex;
+  flex-wrap: wrap;
+}
+.l-block {
+  flex: 70%;
+  background-color: white;
+  border: rgb(0, 20, 100);
+  padding: 20px;
+  margin: 5px 3px 0 auto;
+  color: grey; 
+}
+.r-block {
+  flex: 30%;
+  background-color: white;
+  border: solid rgb(110, 140, 255);
+  padding: 20px;
+  margin: 5px 0 0 auto;
+  color: grey; 
+}
+.btn:focus-visible {
+border: 1px solid #4c51f9;
+outline: none;
+}
+.btn:hover {
+transition: all 0.2s;
+background-color: #a0a0a0;
+color: #444;
+}
+.btn:active {
+background-color: #808080;
+color: white;
+}
+.btn:disabled {
+background-color: #eee;
+border-color: #eee;
+color: #444;
+cursor: not-allowed;
+}
