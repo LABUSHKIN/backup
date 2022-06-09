@@ -1,1 +1,136 @@
-/*for copy */
+html, body {
+  font-family: "Roboto", "Mono", Arial, serif;
+  background-color: rgb(255, 242, 242);
+  max-width: 90%;
+  height: auto;
+  margin:  auto;
+}
+* {
+  box-sizing: border-box; width: auto;
+}
+header {
+  background-color: #b2b2f9;
+  color: #ffffff;
+  text-align: right;
+  position: relative; width:100%;
+}
+h1 {
+  color: black;
+  font-size: 350%;
+  text-align: right;
+}
+h2 {
+  color: gray;
+  font-size: 220%;
+  text-align: left;
+}
+h6 {
+  color: #0000cc
+}
+b {
+  font-size: 2em;
+  color: black;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin: 0 2em;
+  padding: 0.5em;
+}
+.linksn {
+  font-size: 1.2em;
+  display: flex;
+  margin: 0 1.5em;
+  padding: 2px;
+}
+.btn {
+  display: inline-block;	
+  padding: 0 1.4em;
+  border: 2px solid black;
+  border-radius: 2em;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(51, 0, 0);
+  background-color: rgb(27, 181, 0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgb(0 0 0 / 8%);
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;  
+} 
+
+@media screen and (max-width: 700px) { 
+  .block {   
+    flex-direction: row;
+  }
+} 
+.block {  
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.left-block {
+  flex: 3%;
+  background-color: #fff5ef;
+  padding: 20px;
+  border: solid grey;
+  margin: 1em 1em 0 0; /* Отступы между блоками: сверху-1em, справа - 1 em, снизу - 0, слева - 0 
+  Свойство margin CSS определяет внешний отступ на всех четырёх сторонах элемента. */
+
+}
+.right-block {
+  flex: 60%;
+  background-color: #fff5ef;
+  padding: 20px;
+  border: solid grey;
+  margin: 1em 1em 0 0; /* Отступы между блоками: сверху-1em, справа - 1 em, снизу - 0, слева - 0 
+  Свойство margin CSS определяет внешний отступ на всех четырёх сторонах элемента. */
+}
+.profile-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+.contacts, .exper-panel, .edu-panel {
+  font-size: 16px;
+  color: #666666;
+  padding: 0.5em 1.5em;
+} 
+.skills {
+  font-size: 0.8em;
+  text-align: center;  
+  color: white;
+}
+.skills-bar {
+  width: 100%;
+  background-color: #e6e6ff;
+  border-radius: 1em;
+}
+.html {width: 60%; background-color: #0000cc; border-radius: 1em;}
+.css {width: 50%; background-color: #0000cc; border-radius: 1em;}
+.js {width: 80%; background-color: #0000cc; border-radius: 1em;}
+.eng {width: 60%; background-color: #0000cc; border-radius: 1em;}
+.deu {width: 40%; background-color: #0000cc; border-radius: 1em;}
+.bel {width: 90%; background-color: #0000cc; border-radius: 1em;}
+.rus {width: 100%; background-color: #0000cc; border-radius: 1em;}
+footer {
+  text-align: center;
+  text-decoration: none;
+  background-color: #0000cc;
+  color: white;
+  position: relative; width:100%;
+}
+.social-links {
+  color: #ffffff;  
+}
+.social-links :hover {
+  /*padding: 20em; Свойство padding устанавливает внутренние отступы/поля со всех сторон элемента. */
+  color: #ff6d33;   
+}
+a {
+  color: #33ff44;
+  text-decoration: none;
+}
