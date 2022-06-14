@@ -2,7 +2,7 @@
 ___
 ### [Travel#1 - Фиксированная вёрстка](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/travel/travel-part1.md) 15.06.2020-28.06.2022
 ### [Travel#2 - Адаптивная вёрстка](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/travel/travel-part2.md) 29.06.2022-12.07.2022
-### [Travel#3 /add JavaScript](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/travel/travel-part3.md)
+### [Travel#3 /add JavaScript](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/travel/travel-part3.md) 13.07.2022-26.07.2022
 ___
 ### [Макет Travel в Figma](https://www.figma.com/file/BhULVGGIachSAjoBazhP9P/Travel?node-id=0%3A1)
 ### [Recommendations for HTML + CSS](https://github.com/rolling-scopes-school/tasks/blob/master/stage1/modules/clean-code/materials/html-and-css-extended.md)
