@@ -1,1 +1,0 @@
-create "pic.txt" only for create folder "pics"
