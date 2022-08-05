@@ -1,11 +1,11 @@
 html {
-    font-family: "Marga", "Aleo", "Red Hat Display"; /* прописать шрифты */
+    font-family: "Marga", "Aleo", "Red Hat Display";  /* прописать шрифты */
     width: 1440px;
     height: 3775px;
     color: white;
     background-color: #E5E5E5;
     margin: 0;
-    padding: 10px; /*зазор 10px*/
+    padding: 10px;  /*зазор 10px*/
 }
 body {
     width: 1440px;
